@@ -143,7 +143,7 @@ def main():
     # Main code goes here
 
     LOGGER.info("Checking who I am...")
-    wai = WhoAmi("Ryno")
+    wai = WhoAmi()
     LOGGER.debug(f"{wai.name}")
 
 
