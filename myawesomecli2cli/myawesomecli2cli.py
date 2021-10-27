@@ -83,21 +83,6 @@ def get_arguments():
                                  'error',
                                  'critical'])
 
-    # examples:
-    parser.add_argument('--long', '-s',
-                        choices=['a', 'b'],
-                        dest='parameter_long',
-                        action='store',
-                        help='Describe the parameter here',
-                        default='a',
-                        type=str,
-                        required=True)
-    parser.add_argument('--feature',
-                        dest='feature',
-                        action='store_true')
-    parser.add_argument('--no-feature',
-                        dest='feature',
-                        action='store_false')
     args = parser.parse_args()
     return args
 
