@@ -37,6 +37,8 @@ import json
 import argparse
 import coloredlogs
 
+from myawesometest2lib.myawesometest2lib import WhoAmi
+
 
 __author__ = '''Ryno Marree <ryno.marree@hotmail.com>'''
 __docformat__ = '''google'''
@@ -139,6 +141,11 @@ def main():
     args = get_arguments()
     setup_logging(args.log_level, args.logger_config)
     # Main code goes here
+
+    LOGGER.info("Checking who I am...")
+    wai = WhoAmi("Ryno")
+    LOGGER.debug(f"{wai.name}")
+
 
 
 if __name__ == '__main__':

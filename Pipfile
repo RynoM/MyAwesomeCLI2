@@ -24,4 +24,5 @@ toml = "~=0.10.0"
 
 [packages]
 coloredlogs = "~=10.0"
+myawesometest2lib = "~=0.1.0"
 

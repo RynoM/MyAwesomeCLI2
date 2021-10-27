@@ -45,7 +45,7 @@ setup(
                    'console_scripts': [
                        # enable this to automatically generate a script in /usr/local/bin called myscript that points to your
                        #  myawesomecli2cli.myawesomecli2cli:main method
-                       # 'myscript = myawesomecli2cli.myawesomecli2cli:main'
+                       'awesomewhoami = myawesomecli2cli.myawesomecli2cli:main'
                    ]},
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
